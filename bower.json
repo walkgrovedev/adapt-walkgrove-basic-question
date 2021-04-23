@@ -1,0 +1,19 @@
+{
+    "name": "adapt-walkgrove-basic-question",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/walkgrovedev/adapt-walkgrove-basic-question.git"
+    },
+    "framework": "5",
+    "version": "1.0.0",
+    "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-basic-question.git",
+    "component": "basic-question",
+    "displayName": "Basic Question",
+    "description": "A component ...",
+    "main": "/js/adapt-walkgrove-basic-question.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPL-3.0"
+}

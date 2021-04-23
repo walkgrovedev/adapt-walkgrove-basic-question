@@ -1,0 +1,23 @@
+<div class="component__inner basic-question__inner">
+  {{> component this}} 
+
+  <div class="basic-question__main">
+  {{#each _items}}
+    <div class="basic-question__option js-select-option" data-index="{{@index}}"  >{{text}}</div>
+  {{/each}}
+  
+    <div class="basic-question__buttons button" id="basic-question__buttons">
+      <button class="basic-question__btn btn js-submit-click" aria-label="{{buttonText}}">
+        <span>{{buttonText}}</span>
+      </button>
+      <button class="basic-question__btn btn js-feedback-click is-hidden" aria-label="{{buttonFeedbackText}}">
+        <span>{{buttonFeedbackText}}</span>
+      </button>
+    </div>
+  </div> 
+
+  
+  
+  {{!-- {{#if body}} {{/if}} --}}
+
+</div>
