@@ -49,10 +49,24 @@
         &.is-selected {
             background-color: @item-color-selected;
             color: @item-color-inverted-selected;
+
+            &.is-submitted {
+                cursor: default;
+    
+                &:hover {
+                    background-color: @item-color-selected;
+                    color: @item-color-inverted-selected;
+                }
+            }
         }
 
         &.is-submitted {
             cursor: default;
+
+            &:hover {
+                background-color: @item-color;
+                color: @item-color-inverted;
+            }
         }
     }
 
