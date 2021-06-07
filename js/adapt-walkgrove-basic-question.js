@@ -72,6 +72,8 @@ define([
 
       this.$('.js-submit-click').addClass("is-hidden");
       this.$('.js-feedback-click').removeClass("is-hidden");
+
+
     },
 
     onFeedback: function() {

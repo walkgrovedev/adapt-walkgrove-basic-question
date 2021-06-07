@@ -2,6 +2,9 @@
   {{> component this}} 
 
   <div class="basic-question__main">
+
+    <div class="basic-question__question" >{{{question}}}</div>
+    
   {{#each _items}}
     <div class="basic-question__option js-select-option" data-index="{{@index}}"  >{{text}}</div>
   {{/each}}

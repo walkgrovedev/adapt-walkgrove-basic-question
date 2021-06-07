@@ -22,6 +22,27 @@
         align-items: center;
     }
 
+    &__question {
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 1.4;
+        text-align: center;
+        background: #fff;
+        padding: 0 2rem;
+        flex: 0 0 auto;
+        margin-bottom: 1rem;
+
+        @media (max-width: 1280px) {
+            font-size: 1em;
+            line-height: 1;
+            padding: 0 1rem;
+        }
+
+        @media (max-width: @device-width-small) {
+            margin-bottom: 0rem;
+        }
+    }
+
     &__option {
         padding: 1rem;
         background-color: @item-color;
@@ -34,8 +55,9 @@
 
         cursor: pointer;
 
-        @media (max-width: 823px) {
+        @media (max-width: 1024px) {
             width: 75%;
+            padding: 0.5rem 1rem;
         }
         @media (max-width: @device-width-small) {
             width: 100%;
