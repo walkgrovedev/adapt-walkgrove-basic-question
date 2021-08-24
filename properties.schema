@@ -9,9 +9,7 @@
          "required":true,
          "default":"",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "translatable":true
       }
    },
@@ -32,9 +30,7 @@
          "required":false,
          "default":"",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "help":"This is the instruction text",
          "translatable":true
       },
@@ -56,9 +52,7 @@
          "default":"",
          "title":"The submit button title",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "help":"",
          "translatable":"fatruelse"
       },
@@ -68,9 +62,7 @@
          "default":"",
          "title":"The feedback button title",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "help":"",
          "translatable":true
       },
@@ -80,9 +72,7 @@
          "default":"",
          "title":"The instructions to show after the question is answered",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "help":"",
          "translatable":true
       },
@@ -92,9 +82,7 @@
          "default":"",
          "title":"The question to show above the options",
          "inputType":"Text",
-         "validators":[
-            
-         ],
+         "validators":[],
          "help":"",
          "translatable":true
       },
@@ -125,9 +113,7 @@
                   "default":false,
                   "title":"Correct answer?",
                   "inputType":"Checkbox",
-                  "validators":[
-                     
-                  ]
+                  "validators":[ ]
                }
             }
          }
@@ -143,9 +129,7 @@
                "default":"",
                "title":"Feedback Title",
                "inputType":"Text",
-               "validators":[
-                  
-               ],
+               "validators":[],
                "help":"Leave blank to have the component's title shown instead.",
                "translatable":true
             },
@@ -155,9 +139,7 @@
                "default":"",
                "title":"Correct",
                "inputType":"TextArea",
-               "validators":[
-                  
-               ],
+               "validators":[],
                "help":"Correct answer feedback for this question",
                "translatable":true
             },
@@ -167,9 +149,7 @@
                "default":"",
                "title":"Incorrect",
                "inputType":"TextArea",
-               "validators":[
-                  
-               ],
+               "validators":[],
                "help":"Incorrect answer feedback for this question",
                "translatable":true
             }
